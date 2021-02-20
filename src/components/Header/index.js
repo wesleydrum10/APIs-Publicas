@@ -18,13 +18,13 @@ const Header = ({ value, onChange, placeholder }) => {
                 <label>
                     Filme <input id="subtitle" type="searching" placeholder={placeholder} value={displayValue} onChange={handleChange} />
                 </label>
-                {/* <div className="escolha">
+               {/*  <div className="escolha">
                     <div className="escolhaSingle">
-                        <input type="radio" />
+                        <input type="radio" value={'t'} onChange={handleTitleChange}/>
                         <p>Único título</p>
                     </div>
                     <div className="escolhaVarius">
-                        <input type="radio" />
+                        <input type="radio" value={'s'} onChange={handleSubTitleChange}/>
                         <p>Vários títulos</p>                        
                     </div>
                 </div> */}

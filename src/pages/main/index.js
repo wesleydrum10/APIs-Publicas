@@ -10,6 +10,7 @@ export default function Main() {
 
     useEffect(() => {
         let params = ''
+        let type = ''
         if (search) {
             params = search.toLocaleLowerCase()
             console.log('Search', params)
@@ -26,7 +27,11 @@ export default function Main() {
 
     return (
         <>
-            <Header value={search} placeholder="BUSCAR" onChange={(searching) => setSearch(searching)} />
+            <Header 
+                value={search} 
+                placeholder="BUSCAR" 
+                onChange={(searching) => setSearch(searching)}
+            />
             {filmes ?
                 <div className="product-list">
                     {filmes.map(filme => (
