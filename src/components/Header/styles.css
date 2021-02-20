@@ -1,0 +1,59 @@
+#main-header {
+    background: black;
+    color: #fff;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.header-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20 auto 0;
+}
+
+.header-up label {
+    font-size: 2rem;
+}
+
+.header-up label input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #fff;
+    color: #00008B;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vh;
+}
+
+.header-up button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    background: #fff;
+    color: #00008B;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.header-up button:hover {
+    opacity: .7;
+}
+
+.escolha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.escolhaSingle .escolhaVarius {
+    display: flex;
+    width: 100%;
+}
